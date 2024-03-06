@@ -1,0 +1,131 @@
+
+body
+{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 
+{
+    color: rgb(30, 121, 177);
+    font-size: 30px;
+}
+
+.add-label
+{
+    color: rgb(30, 141, 177);
+    font-weight: bold;
+    font-size: 17px;
+    padding: 14px;
+}
+
+.add-form
+{
+    border: 2px solid rgb(30, 141, 177);
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.add-btn 
+{
+    color: white;
+    background: rgb(30, 141, 177);
+    padding: 12px;
+    width: 70px;
+    border: none;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+
+.add-btn:hover 
+{ opacity: 0.7; }
+
+
+.category-form
+{
+    color: rgb(30, 141, 177);
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.task-form-title
+{
+    color: rgb(30, 141, 177);
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.task-form-desc
+{
+    color: rgb(30, 141, 177);
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.update-btn
+{
+    color: white;
+    background: rgb(30, 141, 177);
+    padding: 12px;
+    width: 70px;
+    border: none;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.update-btn:hover 
+{ opacity: 0.7; }
+
+.delete-btn
+{
+    color: white;
+    background: rgb(30, 141, 177);
+    padding: 12px;
+    width: 70px;
+    border: none;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.delete-btn:hover 
+{ opacity: 0.7; }
+
+
